@@ -1,6 +1,3 @@
-create database demo;
-
-use demo;
 
 create table student(
     id INT NOT NULL,
@@ -10,7 +7,7 @@ create table student(
     PRIMARY KEY (id)
 );
 
-create table subject(
+create table subject1(
     id INT NOT NULL,
     subject VARCHAR(10) NOT NULL,
     teacher VARCHAR(10) not NULL,
